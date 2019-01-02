@@ -5,6 +5,7 @@ def oxford_comma(array)
   array.join(", ")
 elsif insert_index === 2
   array[insert_index -1] = "and #{array[insert_index -1]}"
+  array.join()
 else 
   array.join()
  end
